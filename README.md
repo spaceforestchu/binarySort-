@@ -1,5 +1,5 @@
 # binarySort-
-        var doSearch = function(array, targetValue) {
+        function binarySearch(array, targetValue) {
           var min = 0;
           var max = array.length - 1;
           var guess;
@@ -19,4 +19,4 @@
       return -1;
       };
       
-      doSearch([1,2,3,4,5,6,7,8,9,10,11],4);
+      binarySearch([1,2,3,4,5,6,7,8,9,10,11],4);
